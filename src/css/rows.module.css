@@ -1,0 +1,32 @@
+.rowContainer {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 60%;
+    height: 32px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid crimson;
+    border-spacing: 1px;
+}
+
+.rowId {
+    width: 10%;
+}
+
+.rowBankName,
+.rowRegionName {
+    width: 45%;
+    cursor: pointer;
+    text-align: center;
+}
